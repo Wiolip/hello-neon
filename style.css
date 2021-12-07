@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: blueviolet;
+}
+
+p {
+    line-height: 150%;
+}
+
+
+header {
+    background-image: url('assets/herobanner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.baner-now {
+    width: 60%;
+    position: absolute;
+}
+
+header h2 {
+    font-size: 90px;
+    position: absolute;
+}
+
+.social {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 0;
+}
+
+nav li {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0 15px;
+}
+
+.menu {
+    position: absolute;
+    margin-top: 150px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fcfcfc;
+}
+
+
+
+.hello-height {
+    background-color: #f1f1f1;
+    padding: 70px 0;
+    margin-bottom: 20px;
+}
+
+.hello-height img {
+    width: 100%;
+}
+
+.hello-height p {
+    padding-right: 20px;
+}
+
+.gallery {
+    padding: 30px;
+
+}
+
+.baner-height {
+    background-image: url('assets/panel.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.baner-height p {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fcfcfc;
+    padding-bottom: 20px;
+
+}
+
+.services-height {
+    padding: 50px 0;
+    color: #fcfcfc;
+
+}
+
+.services li {
+    text-transform: uppercase;
+    font-size: 20px;
+    list-style-type: none;
+    line-height: 300%;
+}
+
+.float {
+    float: left;
+    margin-right: 20px;
+}
+
+.margin-p p {
+    margin-bottom: 10px;
+}
+
+
+.contact-height {
+    padding: 50px 0;
+    color: #fcfcfc;
+}
+
+.contact-height h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.box-background {
+    background-image: linear-gradient(rgba(137, 43, 226, 0.2), blueviolet);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    border: none;
+    border-bottom: 1px solid #fcfcfc;
+    background: transparent;
+    margin-bottom: 40px;
+}
+
+input[type=submit] {
+    background-color: #fcfcfc;
+    color: blueviolet;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
